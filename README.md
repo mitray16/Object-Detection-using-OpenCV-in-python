@@ -26,3 +26,5 @@ The processed frame is displayed using cv2.imshow.
 cv2.waitKey(1) waits for a key press (1 millisecond) to exit the loop.
 ## Exiting the Program:
 Press any key while the window is active to close the program.
+## Conclusion
+This code essentially captures video from the camera, runs object detection, and displays the results on the screen. The detected objects are highlighted with bounding boxes and labeled with their class names and confidence scores. The specific classes detected depend on the pretrained model used and the contents of the coco.names file
